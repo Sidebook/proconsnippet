@@ -1,3 +1,11 @@
+/*
+Implementation of Union Find Tree (Disjoint Set)
+
+Node Indicies are 0-indexed
+
+Unverified
+*/
+
 #include<vector>
 
 using namespace std;
