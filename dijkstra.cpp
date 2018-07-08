@@ -66,7 +66,7 @@ public:
     }
 
     // calculate shortest distance from s-th node
-    void dikstra(int s) {
+    void dijkstra(int s) {
         range_check(s);
 
         priority_queue<Node, vector<Node>, greater<Node>> pq;
