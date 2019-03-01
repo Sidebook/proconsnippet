@@ -49,7 +49,6 @@ class ModCombination
             fac[i] = fac[i - 1] * i % MOD;
             inv[i] = MOD - inv[MOD % i] * (MOD / i) % MOD;
             facinv[i] = facinv[i - 1] * inv[i] % MOD;
-            cout << fac[i] << " " << inv[i] << " " << facinv[i] << endl;
         }
     }
 
